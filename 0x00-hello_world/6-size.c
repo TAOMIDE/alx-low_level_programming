@@ -10,10 +10,10 @@ int main(void)
 	long int longinteger_type
 	long long int  big_longtype
 	float fractional_type
-	printf("size of char : %lu byte(s)\n", sizeof(character_type));
-	printf("size of int : %lu byte(s)\n", sizeof(integer_type));
-	printf("size of long : %lu byte(s)\n", sizeof(longinteger_type));
-	printf("size of long long : %lu byte(s)\n", sizeof(big_longtype));
-	printf("size of float : %lu byte(s)\n", sizeof(fractional_type));
+	printf("size of char : %lu byte(s)\n", sizeof(char));
+	printf("size of int : %lu byte(s)\n", sizeof(int));
+	printf("size of long : %lu byte(s)\n", sizeof(long int));
+	printf("size of long long : %lu byte(s)\n", sizeof(long long int));
+	printf("size of float : %lu byte(s)\n", sizeof(float));
 	return (0);
 }
