@@ -7,8 +7,8 @@ int main(void)
 {
 	char character_type
 	int integer_type
-	long longinteger_type
-	long long big_longtype
+	long int longinteger_type
+	long long int  big_longtype
 	float fractional_type
 	printf("size of char : %lu byte(s)\n", sizeof(character_type));
 	printf("size of int : %lu byte(s)\n", sizeof(integer_type));
