@@ -7,11 +7,13 @@ int main(void)
 {
 	int integer_type
 	float float_type
-	double double_float_type
+	long longtype_integer
+	long long longlongtype_integer
 	char character_type
 	printf("size of int : %lu byte(s)\n", sizeof(integer_type));
 	printf("size of float : %lu byte(s)\n", sizeof(float_type));
-	printf("size of double : %lu byte(s)\n", sizeof(double_float_type));
+	printf("size of long : %lu byte(s)\n", sizeof(longtype_integer));
+	printf("size of long long : %lu byte(s)\n", sizeof(longlongtype_integer));
 	printf("size of char : %lu byte(s)\n", sizeof(character_type));
 	return (0);
 }
