@@ -5,15 +5,15 @@
  */
 int main(void)
 {
-	int integer_type
-	float float_type
-	long longtype_integer
-	long long longlongtype_integer
 	char character_type
-	printf("size of int : %lu byte(s)\n", sizeof(integer_type));
-	printf("size of float : %lu byte(s)\n", sizeof(float_type));
-	printf("size of long : %lu byte(s)\n", sizeof(longtype_integer));
-	printf("size of long long : %lu byte(s)\n", sizeof(longlongtype_integer));
+	int integer_type
+	long longinteger_type
+	long long big_longtype
+	float fractional_type
 	printf("size of char : %lu byte(s)\n", sizeof(character_type));
+	printf("size of int : %lu byte(s)\n", sizeof(integer_type));
+	printf("size of long : %lu byte(s)\n", sizeof(longinteger_type));
+	printf("size of long long : %lu byte(s)\n", sizeof(big_longtype));
+	printf("size of float : %lu byte(s)\n", sizeof(fractional_type));
 	return (0);
 }
