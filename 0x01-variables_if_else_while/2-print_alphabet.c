@@ -10,7 +10,7 @@ int main(void)
 
 	for (tfk = 'a'; tfk <= 'z'; tfk++)
 	{
-		putchar(tfk)
+		putchar(tfk);
 	}
 	putchar('\n');
 	return (0);
