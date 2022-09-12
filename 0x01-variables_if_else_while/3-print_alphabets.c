@@ -13,7 +13,6 @@ int main(void)
 	{
 		putchar(tfk);
 	}
-	putchar('\n');
 	for (tfk = 'A'; tfk <= 'Z'; tfk++)
 	{
 		putchar(tfk);
