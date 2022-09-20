@@ -3,6 +3,7 @@
 /**
  * _strcpy - sopies string including ending null byte (\0)
  * @dest: pointer
+ * @src: param
  * Return: char
  */
 
