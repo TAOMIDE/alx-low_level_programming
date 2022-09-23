@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-/**
- * main- magic
- * Return: Magic
- */
 int main(void)
 {
 	int n;
